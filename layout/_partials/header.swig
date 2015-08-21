@@ -2,13 +2,14 @@
   <span class="logo-line-before"><i></i></span>
   <a href="{{ config.root }}" class="brand" rel="start">
       <span class="logo">
-        <i class="icon-next-logo"></i>
       </span>
       <span class="site-title">{{ config.title }}</span>
   </a>
   <span class="logo-line-after"><i></i></span>
 </h1>
-
+<h5 style="text-align:center;margin-top:10px;">
+  {{ config.subtitle }}
+</h5>
 <div class="site-nav-toggle">
   <button>
     <span class="btn-bar"></span>
